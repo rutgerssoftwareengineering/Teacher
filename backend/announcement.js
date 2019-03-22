@@ -12,4 +12,4 @@ const AnnouncementSchema = new Schema(
 );
 
 // export the new Schema so we could modify it using Node.js
-module.exports = mongoose.model("Announcement", ForumSchema, "Announcement");
+module.exports = mongoose.model("Announcement", AnnouncementSchema);
